@@ -29,7 +29,7 @@ app.post("/",function(req,res){
   const url="https://us8.api.mailchimp.com/3.0/lists/2e8e3590e7";
   const options={
     method :"POST",
-    auth :"SaiDinesh28:79e579b04b5a64ead45fb84e3a37c935-us8"
+    auth :"SreeManish28:79e579b04b5a64ead45fb84e3a37c935-us8"
   }
 const request=  https.request(url,options,function(response){
   if(response.statusCode===200){
