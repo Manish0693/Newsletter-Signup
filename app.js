@@ -26,10 +26,10 @@ app.post("/",function(req,res){
     ]
   };
   const jsonData=JSON.stringify(data);
-  const url="https://us8.api.mailchimp.com/3.0/lists/2e8e3590e7";
+  const url="https://us12.api.mailchimp.com/3.0/lists/42b399fc88";
   const options={
     method :"POST",
-    auth :"SreeManish28:79e579b04b5a64ead45fb84e3a37c935-us8"
+    auth :"SreeManish35:487926fa6f49f2d348bc50594c5e67d7-us12"
   }
 const request=  https.request(url,options,function(response){
   if(response.statusCode===200){
